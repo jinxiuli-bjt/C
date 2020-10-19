@@ -4,9 +4,9 @@
 
 int main()
 {
-printf("Tamaño de datos básicos\n");
+printf("Tamano de datos basicos\n");
 printf("=======================\n");
-printf("Tipo\tTamaño en bytes\n");
+printf("Tipo\tTamano en bytes\n");
 printf("====\t===============\n");
 printf("char\t%ld\n",sizeof(char));
 printf("string\t%ld\n",sizeof(char[50]));
@@ -15,3 +15,4 @@ printf("float\t%ld\n",sizeof(float));
 printf("double\t%ld\n",sizeof(double));
 return 0;
 }
+
